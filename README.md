@@ -27,8 +27,8 @@ docker build -t tg_bot ./
 docker run -d --restart=always --name bot -v /bot_db_volume:/home/db -e TELEGRAM_API_TOKEN="" -e ACCESS_ID="" tg_bot
 ``` 
 
-`bot_db_volume` – docker volume
+`bot_db_volume` – docker volume.
 
-`TELEGRAM_API_TOKEN=""` – токен бота
+`TELEGRAM_API_TOKEN=""` – токен бота.
 
 `ACCESS_ID=""` – айди чата в котором используется бот.
